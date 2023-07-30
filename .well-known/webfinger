@@ -1,0 +1,23 @@
+{
+  "subject": "acct:k@kousaka.co",
+  "aliases": [
+    "https://mstdn.kousaka.co/@k",
+    "https://mstdn.kousaka.co/users/k"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://mstdn.kousaka.co/@k"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://mstdn.kousaka.co/users/k"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://mstdn.kousaka.co/authorize_interaction?uri={uri}"
+    }
+  ]
+}
